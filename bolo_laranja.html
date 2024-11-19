@@ -3,49 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bolo_laranja</title>
+    <title>Bolo de Laranja - Receita Deliciosa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>
-            Tipos de bolos
-        </h1>
-        <nav>
-            <a href="bolo_cenoura.html"><img src="img/anterior.png" alt=""></a>
-            <a href="bolo_chocolate.html">Bolo de Chocolate</a>
-            <a href="bolo_cenoura.html">Bolo de Cenora</a>
-            <a href="bolo_laranja.html">Bolo de laranja</a>
-            <a href="bolo_maracuja.html">Bolo de Maracuja</a>
-            <a href="bolo_maracuja.html"><img src="img/proximo.png" alt=""></a>
-            <a href="index.html"><img src="img/casa.png" alt=""></a>
+    <header id="main-header">
+        <h1 class="title">Tipos de Bolos</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="bolo_cenoura.html" aria-label="Ir para o bolo anterior"><img src="img/anterior.png" alt="Seta para a esquerda"></a></li>
+                <li><a href="bolo_chocolate.html">Bolo de Chocolate</a></li>
+                <li><a href="bolo_cenoura.html">Bolo de Cenoura</a></li>
+                <li><a href="bolo_laranja.html" class="current">Bolo de Laranja</a></li>
+                <li><a href="bolo_maracuja.html">Bolo de Maracujá</a></li>
+                <li><a href="bolo_maracuja.html" aria-label="Ir para o bolo seguinte"><img src="img/proximo.png" alt="Seta para a direita"></a></li>
+                <li><a href="index.html" aria-label="Voltar para a página inicial"><img src="img/casa.png" alt="Ícone de casa"></a></li>
+            </ul>
         </nav>
     </header>
+    <main id="content">
+        <section class="recipe">
+            <h1 class="recipe-title">Receita de Bolo de Laranja</h1>
+            <img src="img/laranja.webp" alt="Imagem de um bolo de laranja" class="recipe-image">
 
-        <h1>Receita de Bolo de Laranja</h1>
-        <img src="img/bolo_laranja.jpg" alt="">
+            <article class="ingredients">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>3 ovos</li>
+                    <li>1 xícara de suco de laranja natural</li>
+                    <li>1 xícara de açúcar</li>
+                    <li>1/2 xícara de óleo vegetal</li>
+                    <li>2 xícaras de farinha de trigo</li>
+                    <li>1 colher de sopa de fermento em pó</li>
+                    <li>Raspas de casca de uma laranja (opcional)</li>
+                </ul>
+            </article>
 
-        <h3>Ingredientes: </h3>
-        <h4></h4>
-            <li>3 ovos</li>
-            <li>1 xícara de suco de laranja natural</li>
-            <li>1 xícara de açúcar</li>
-            <li>1/2 xícara de óleo vegetal</li>
-            <li>2 xícaras de farinha de trigo</li>
-            <li>1 colher de sopa de fermento em pó</li>
-            <li>Raspas de casca de uma laranja (opcional)</li>
-            
-        <h3>Modo de Preparo:</h3>
-        <h4></h4>
-            <li>Preaqueça o forno a 180°C e unte uma forma com manteiga e farinha.</li>
-            <li>Em uma tigela, bata os ovos com o açúcar até obter uma mistura cremosa.</li>
-            <li>Acrescente o suco de laranja, o óleo vegetal e as raspas de casca de laranja (se estiver utilizando) à mistura de ovos e açúcar, mexendo bem.</li>
-            <li>Aos poucos, adicione a farinha de trigo peneirada e misture até incorporar todos os ingredientes.</li>
-            <li>Por último, adicione o fermento em pó e misture delicadamente.</li>
-            <li>Despeje a massa na forma preparada e leve ao forno por aproximadamente 35-40 minutos, ou até que o bolo esteja dourado e ao inserir um palito no centro, ele saia limpo.</li>
-            <li>Retire do forno e deixe esfriar antes de desenformar.</li>
-            <li>Sirva fatias desse bolo de laranja delicioso e desfrute!</li>
-
+            <article class="instructions">
+                <h3>Modo de Preparo:</h3>
+                <ol>
+                    <li>Preaqueça o forno a 180°C e unte uma forma com manteiga e farinha.</li>
+                    <li>Em uma tigela, bata os ovos com o açúcar até obter uma mistura cremosa.</li>
+                    <li>Adicione o suco de laranja, o óleo vegetal e as raspas de casca de laranja (se estiver utilizando) à mistura de ovos e açúcar. Misture bem.</li>
+                    <li>Incorpore aos poucos a farinha de trigo peneirada e mexa até ficar homogêneo.</li>
+                    <li>Adicione o fermento em pó e misture delicadamente.</li>
+                    <li>Despeje a massa na forma preparada e leve ao forno por 35-40 minutos, ou até que o bolo esteja dourado e um palito inserido no centro saia limpo.</li>
+                    <li>Retire do forno, deixe esfriar e desenforme.</li>
+                    <li>Aproveite uma deliciosa fatia de bolo de laranja!</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+    <footer id="main-footer">
+        <p>&copy; 2024 Desenvolvido por <strong>Vitor Muniz</strong>. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
