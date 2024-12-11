@@ -2,6 +2,6 @@
 
 
 ## Contato
-Se você tiver dúvidas ou sugestões, entre em contato por [vittormuniz@gmail.com](mailto:vittormuniz@gmail.com).
+Se você tiver dúvidas ou sugestões, entre em contato por [vitttormuniz@gmail.com](mailto:vitttormuniz@gmail.com).
 
  
