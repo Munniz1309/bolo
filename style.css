@@ -5,12 +5,18 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #fdfdfd;
     color: #333;
-    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 /* Cabeçalho */
@@ -19,8 +25,6 @@ body {
     color: #4a2c2a;
     padding: 20px 0;
     text-align: center;
-    max-width: auto;
-    max-height: 10%;
 }
 
 #main-header .title {
@@ -62,6 +66,7 @@ body {
 #content {
     max-width: 800px;
     margin: 20px auto;
+    flex: 1;
 }
 
 .intro h2 {
@@ -119,6 +124,7 @@ body {
     padding: 15px 0;
     margin-top: 30px;
     font-size: 0.9rem;
+    flex-shrink: 0;
 }
 
 #main-footer strong {
